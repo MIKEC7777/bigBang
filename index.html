@@ -1,3 +1,5 @@
+!DOCTYPEHTML
+<index>
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 <body>
   <script src="ball.js"></script>
@@ -35,7 +37,7 @@
         balls[i].style.left = x[i];
         balls[i].style.top = y[i];
       }
-      setTimeout(update, 10); // this calls update ever 1/10 second
+      setTimeout(update, 10); 
     }
     function getRandom(scale) {
       return Math.floor(Math.random() * scale - scale / 2);
@@ -65,3 +67,4 @@
     </svg>
   </div>
 </body>
+<index>
